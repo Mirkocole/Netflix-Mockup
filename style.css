@@ -58,8 +58,11 @@ span.carousel-control-prev-icon{
     footer i{
         font-size: 15px!important;
     }
-    footer button{
-        font-size: 10px!important;
+    footer button.btn{
+        font-size: 5px!important;
+    }
+    footer li.list-group-item, footer{
+        font-size: 8px;
     }
 }
 
@@ -122,8 +125,8 @@ footer, footer li{
     color: rgb(198, 196, 196)!important;
 }
 
-footer li, footer{
-    font-size: 1.5vh;
+footer li.list-group-item, footer{
+    font-size: 13px!important;
 }
 
 footer i{
