@@ -54,6 +54,13 @@ span.carousel-control-prev-icon{
     .carousel-inner .carousel-item-prev {
       transform: translateX(-50%);
     }
+
+    footer i{
+        font-size: 15px!important;
+    }
+    footer button{
+        font-size: 10px!important;
+    }
 }
 
 .carousel-inner .carousel-item.active,
@@ -109,4 +116,19 @@ span.carousel-control-prev-icon{
 .card:hover{
     z-index:2;
     transform: scale(1.2);
+}
+
+footer, footer li{
+    color: rgb(198, 196, 196)!important;
+}
+
+footer li, footer{
+    font-size: 1.5vh;
+}
+
+footer i{
+    font-size: 23px;
+}
+footer button{
+    font-size: 13px!important;
 }
