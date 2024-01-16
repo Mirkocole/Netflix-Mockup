@@ -135,3 +135,15 @@ footer i{
 footer button{
     font-size: 13px!important;
 }
+
+
+
+@keyframes FadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes FadeOut {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
