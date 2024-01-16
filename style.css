@@ -1,0 +1,112 @@
+/* General Settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Logo */
+#logo-netflix{
+    width: 100%;
+    max-width: 100px;
+}
+
+#user-img{
+    width: 25px;
+    height: 25px;
+}
+
+nav button.dropdown-toggle::after{
+    content: none!important;
+}
+
+/*  Codice Carosello */
+
+/* Pulsanti */
+span.carousel-control-next-icon{
+    position: absolute;
+    right: 34px;
+    top: 10%;
+    height: 100%;
+    width: 43px;
+    z-index: 99!important;
+}
+
+
+span.carousel-control-prev-icon{
+    position: absolute;
+    left: 34px;
+    top: 10%;
+    height: 100%;
+    width: 43px;
+    z-index: 99!important;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) and (max-width: 992px){
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.33%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.33%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+@media (min-width: 992px){
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(16.66%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-16.66%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+
+/* Effeto Transition */
+.card{
+    margin-right: 3px;
+    transition: all 0.3s linear 0.1s;
+}
+
+.card:hover{
+    z-index:2;
+    transform: scale(1.2);
+}
