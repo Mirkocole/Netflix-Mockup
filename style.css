@@ -65,9 +65,7 @@ span.carousel-control-prev-icon{
         font-size: 8px;
     }
 
-    div.carousel-inner{
-        overflow: visible;
-    }
+    
 }
 
 .carousel-inner .carousel-item.active,
