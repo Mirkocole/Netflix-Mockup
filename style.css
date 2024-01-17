@@ -64,6 +64,10 @@ span.carousel-control-prev-icon{
     footer li.list-group-item, footer{
         font-size: 8px;
     }
+
+    div.carousel-inner{
+        overflow: visible;
+    }
 }
 
 .carousel-inner .carousel-item.active,
